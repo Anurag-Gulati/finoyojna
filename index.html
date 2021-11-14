@@ -87,34 +87,23 @@
           <h1 class="head">Request for a free demo</h1>
         </div>
         <div>
-          <form action="" class="demo-form">
+          <form action="" class="demo-form" id="myForm">
             <input
               type="email"
               name=""
               class="in-field"
+              id="email"
               placeholder="Enter your email here"
             />
-            <button class="email-submit" onclick="sendEmail">Submit</button>
+            <div class="email-submit">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd0-ElH5tDPnG3ycH9um8mJE19hs9CD5Rv0iCrj-nfb5agakQ/viewform?usp=sf_link"
+                >Submit</a
+              >
+            </div>
           </form>
         </div>
       </div>
     </div>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script type="text/javascript">
-      function sendEmail() {
-        Email.send({
-          Host: "smtp.gmail.com",
-          Username: "official.anurag2021@gmail.com",
-          Password: "anuragGulati@2785",
-          To: "official.anurag2021@gmail.com",
-          From: "official.anurag2021@gmail.com",
-          Subject: "Interested",
-          Body: "Well that was easy!!",
-        }).then(function (message) {
-          alert("Mail has been sent successfully");
-        });
-      }
-    </script>
   </body>
 </html>
