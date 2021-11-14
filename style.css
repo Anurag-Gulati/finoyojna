@@ -7,10 +7,10 @@ body {
   font-size: 62.5%;
 }
 .container {
-  max-width: 100vw;
+  max-width: 100%;
 }
 .hero {
-  max-width: 100vw;
+  max-width: 100%;
   height: 100vh;
   background-image: linear-gradient(
     to top right,
@@ -150,7 +150,7 @@ body {
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
-  color: rgba(77, 77, 77, 0.6);
+  color: rgba(77, 77, 77, 0.8);
 }
 .blk-1-cont ul {
   line-height: 2rem;
@@ -181,7 +181,7 @@ body {
   justify-content: right;
   font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
-  color: rgba(77, 77, 77, 0.6);
+  color: rgba(77, 77, 77, 0.8);
 }
 .blk-2-cont ul {
   line-height: 2rem;
@@ -235,4 +235,133 @@ body {
   border-style: solid;
   border-radius: 1.5rem;
   background-color: rgba(27, 176, 206, 0.3);
+}
+
+@media (max-width: 1080px) {
+  .one-liner {
+    width: 40%;
+  }
+  .line {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .mail-text {
+    font-size: 0.8rem;
+  }
+  .desc {
+    font-size: 0.8rem;
+  }
+  .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .mail-text {
+    font-size: 0.7rem;
+  }
+  .btn {
+    font-size: 0.6rem;
+  }
+  .img {
+    width: 40%;
+  }
+  .img img {
+    width: 150%;
+  }
+}
+
+@media (max-width: 760px) {
+  .line {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .mail-text {
+    font-size: 0.6rem;
+  }
+  .desc {
+    font-size: 0.6rem;
+  }
+  .btn {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .mail-span i {
+    font-size: 0.7rem;
+  }
+  .mail-text {
+    font-size: 0.4rem;
+  }
+  .one-liner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .line {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .desc {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .img {
+    display: none;
+  }
+  .wp {
+    font-size: 1.8rem;
+  }
+  .block-1 {
+    height: 20%;
+  }
+  .blk-1-cont {
+    font-size: 0.6rem;
+  }
+  .block-5 {
+    height: 20%;
+  }
+  .blk-2-cont {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .mail-span {
+    display: none;
+  }
+  .desc {
+    font-size: 0.8rem;
+  }
+  .btn {
+    font-size: 0.7rem;
+  }
+  .blk-1-img,
+  .blk-2-img {
+    width: 0;
+    display: none;
+  }
+  .block-2 {
+    justify-content: left;
+  }
+  .blk-2-cont ul,
+  .blk-1-cont ul {
+    text-align: left;
+    font-size: 0.8rem;
+    list-style: circle;
+  }
+  .in-field {
+    width: 100%;
+  }
 }
