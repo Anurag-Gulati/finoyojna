@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+.container {
+  max-width: 100vw;
+}
+.hero {
+  max-width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to top right,
+    #14adcc,
+    rgba(165, 225, 255, 0.6)
+  );
+}
+.top-bar {
+  width: 78.125%;
+  height: 12.35%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.logo span {
+  font-weight: 500;
+}
+.mail {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.mail-span {
+  width: 33.25%;
+  height: 40%;
+  background-color: rgba(27, 176, 206, 0.3);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mail-span i,
+.mail-text {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.hero-mid {
+  width: 78.125%;
+  height: 87.65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.one-liner {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  color: #fff;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.3rem;
+  display: inline-block;
+  padding: 0;
+  margin: -0.5rem 0;
+}
+.desc {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  width: 53.4%;
+  padding: 0.7rem 0;
+  background-color: #fff;
+  color: #1eb1cf;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+.we-provide {
+  height: 100vh;
+  width: 100%;
+}
+.heading {
+  width: 78.125%;
+  margin: 0 auto;
+  text-align: center;
+}
+.wp {
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: #021a70;
+  display: inline-block;
+}
+.wp-content {
+  width: 78.125%;
+  height: 84%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.block-1 {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  display: flex;
+}
+.blk-1-img {
+  width: 20%;
+  height: 100%;
+  background-image: url(blk-1-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blk-1-cont {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: rgba(77, 77, 77, 0.6);
+}
+.blk-1-cont ul {
+  line-height: 2rem;
+}
+.block-2 {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+}
+.blk-2-cont {
+  width: 80%;
+  height: 100%;
+}
+.blk-2-img {
+  width: 20%;
+  height: 100%;
+  background-image: url(blk-2-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blk-2-cont {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: rgba(77, 77, 77, 0.6);
+}
+.blk-2-cont ul {
+  line-height: 2rem;
+  text-align: right;
+  list-style-position: inside;
+}
+.get-demo {
+  width: 100%;
+  height: 40vh;
+  background-image: linear-gradient(
+    to top right,
+    #14adcc,
+    rgba(165, 225, 255, 0.6)
+  );
+}
+.demo-head {
+  width: 78.125%;
+  margin: 0 auto;
+  text-align: center;
+}
+.head {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+  display: inline-block;
+}
+.demo-form {
+  width: 78.125%;
+  height: 15vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in-field {
+  width: 40%;
+  margin-right: 2rem;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  border-width: 0;
+}
+.email-submit {
+  font-size: 1.1rem;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-width: 0.2rem;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 1.5rem;
+  background-color: rgba(27, 176, 206, 0.3);
+}
