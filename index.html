@@ -94,10 +94,27 @@
               class="in-field"
               placeholder="Enter your email here"
             />
-            <button class="email-submit">Submit</button>
+            <button class="email-submit" onclick="sendEmail">Submit</button>
           </form>
         </div>
       </div>
     </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "official.anurag2021@gmail.com",
+          Password: "anuragGulati@2785",
+          To: "official.anurag2021@gmail.com",
+          From: "official.anurag2021@gmail.com",
+          Subject: "Interested",
+          Body: "Well that was easy!!",
+        }).then(function (message) {
+          alert("Mail has been sent successfully");
+        });
+      }
+    </script>
   </body>
 </html>
